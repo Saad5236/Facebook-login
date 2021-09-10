@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}           
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 115vh;
+    background-color: #f0f2f5;
+}
+
+.logoText{
+    width: 40%;
+    position: relative;
+    left: 1.3em;
+    bottom: 4.2em;
+}
+.logoText img{
+    width: 45%;
+    margin-left: 5px;
+}
+.logoText .text{
+    font-size: 1.75em;
+    margin: 20px 0;
+    color: #1c1e21; 
+}
+
+.formParent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    right: 1.5em;
+    top: 2em;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 400px;
+    border-radius: 0.6em;
+    padding: 0.7em 0;
+    padding-bottom: 1.5em;
+    background-color: white;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    position: relative;
+    bottom: 3.7em;
+}
+
+.form input{
+    margin: 0.4em 0;
+    width: 82%;
+    height: 1.5em;
+    padding: 12px 16px;
+    outline: none;
+    border-radius: 0.4em;
+    border: 1px solid rgb(219, 219, 219);
+}
+
+.form input[placeholder]{
+    font-size: 17px;
+}
+
+.form input::placeholder{
+    color: rgb(177, 177, 177);
+}
+
+.form .login{
+    margin: 0.5em 0;
+    width: 82%;
+    height: 1.4em;
+    padding: 10px 16px;
+    border-radius: 0.4em;
+    color: white;
+    font-weight: bold;
+    background-color: #1877f2;
+    text-align: center;
+    font-size: 20px;
+}
+
+.form .login:hover{
+    background-color: #1a6fdd;
+}
+
+.form .forgot{
+    padding-bottom: 1.2em;
+    margin-top: 0.5em;
+    font-size: 0.87em;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    width: 88%;
+    text-align: center;
+    color: #1877f2;
+}
+
+.form .forgot:hover{
+    text-decoration: underline;
+}
+
+.form .newAcc{
+    margin-top: 1.8em;
+    padding: 14px 16px;
+    font-weight: bolder;
+    background-color: #42b72a;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 17px;
+    border-radius: 6px;
+}
+
+.form .newAcc:hover{
+    background-color: #3ea529;
+}
+
+.page{
+    position: relative;
+    bottom: 2em;
+}
+
+.page a, .page span{
+    font-size: 0.85em;
+}
+
+.page a{
+    font-weight: bold;
+    color: black;
+}
+
+.page a:hover{
+    text-decoration: underline;
+}
